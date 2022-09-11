@@ -14,7 +14,7 @@
       "typeorm": "^0.3.9"
    },
    "scripts": {
-      "start": "ts-node src/active.ts",
+      "start": "ts-node src/data-mapper.ts",
       "typeorm": "typeorm-ts-node-commonjs"
    }
 }

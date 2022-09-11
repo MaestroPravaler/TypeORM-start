@@ -16,9 +16,9 @@ Este projeto foi desenvolvido baseado no curso de TypeORM da School Of Net.
 2. Inserindo dados na tabela
 3. Buscando os dados inseridos
 
-### Utilizando o ActiveRecord
+### Utilizando o Design Pattern Active Record
 
-Usando a abordagem ActiveRecord definimos todos os métodos de consulta dentro do pŕóprio modelo
+Usando a abordagem Active Record definimos todos os métodos de consulta dentro do pŕóprio modelo
 
 1. Criação do arquivo src/active.ts
 2. Criação do arquivo src/entity/UserActive.ts
@@ -32,3 +32,11 @@ Usando a abordagem ActiveRecord definimos todos os métodos de consulta dentro d
     ```
 5. Implementando no arquivo active.ts um CRUD completo com buscas diferenciadas
 6. Criando uma função de busca estática  em src/entity/UserActive.ts
+
+### Utilizando o Design Pattern Data Mapper
+
+Na abordagem Data Mapper, definimos todos os métodos em classes separadas (repository). 
+
+1. Criação do arquivo src/entity/UserDataMapper.ts
+2. Criação do arquivo src/data-mapper.ts
+3. Implementação de um CRUD no arquivo src/data-mapper.ts
